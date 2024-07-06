@@ -16,6 +16,7 @@
 		C549189F2C38CFC600623E4C /* MapKit_Example_UIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549189E2C38CFC600623E4C /* MapKit_Example_UIKitTests.swift */; };
 		C54918A92C38CFC600623E4C /* MapKit_Example_UIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54918A82C38CFC600623E4C /* MapKit_Example_UIKitUITests.swift */; };
 		C54918AB2C38CFC600623E4C /* MapKit_Example_UIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54918AA2C38CFC600623E4C /* MapKit_Example_UIKitUITestsLaunchTests.swift */; };
+		C54918B92C38D1C900623E4C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54918B82C38D1C900623E4C /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C54918A42C38CFC600623E4C /* MapKit-Example-UIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MapKit-Example-UIKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54918A82C38CFC600623E4C /* MapKit_Example_UIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKit_Example_UIKitUITests.swift; sourceTree = "<group>"; };
 		C54918AA2C38CFC600623E4C /* MapKit_Example_UIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKit_Example_UIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C54918B82C38D1C900623E4C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54918B92C38D1C900623E4C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				C549189D2C38CFC600623E4C /* MapKit-Example-UIKitTests */,
 				C54918A72C38CFC600623E4C /* MapKit-Example-UIKitUITests */,
 				C54918852C38CFC400623E4C /* Products */,
+				C54918B72C38D1C800623E4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +129,14 @@
 				C54918AA2C38CFC600623E4C /* MapKit_Example_UIKitUITestsLaunchTests.swift */,
 			);
 			path = "MapKit-Example-UIKitUITests";
+			sourceTree = "<group>";
+		};
+		C54918B72C38D1C800623E4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C54918B82C38D1C900623E4C /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
