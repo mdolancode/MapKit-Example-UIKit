@@ -17,6 +17,7 @@
 		C54918A92C38CFC600623E4C /* MapKit_Example_UIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54918A82C38CFC600623E4C /* MapKit_Example_UIKitUITests.swift */; };
 		C54918AB2C38CFC600623E4C /* MapKit_Example_UIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54918AA2C38CFC600623E4C /* MapKit_Example_UIKitUITestsLaunchTests.swift */; };
 		C54918B92C38D1C900623E4C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54918B82C38D1C900623E4C /* MapKit.framework */; };
+		C5BB2EDF2C38FECA009C9041 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BB2EDE2C38FECA009C9041 /* CustomAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C54918A82C38CFC600623E4C /* MapKit_Example_UIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKit_Example_UIKitUITests.swift; sourceTree = "<group>"; };
 		C54918AA2C38CFC600623E4C /* MapKit_Example_UIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKit_Example_UIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C54918B82C38D1C900623E4C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C5BB2EDE2C38FECA009C9041 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				C54918872C38CFC400623E4C /* AppDelegate.swift */,
 				C54918892C38CFC400623E4C /* SceneDelegate.swift */,
 				C549188B2C38CFC400623E4C /* ViewController.swift */,
+				C5BB2EDE2C38FECA009C9041 /* CustomAnnotation.swift */,
 				C549188D2C38CFC400623E4C /* Main.storyboard */,
 				C54918902C38CFC600623E4C /* Assets.xcassets */,
 				C54918922C38CFC600623E4C /* LaunchScreen.storyboard */,
@@ -273,6 +276,7 @@
 				C549188C2C38CFC400623E4C /* ViewController.swift in Sources */,
 				C54918882C38CFC400623E4C /* AppDelegate.swift in Sources */,
 				C549188A2C38CFC400623E4C /* SceneDelegate.swift in Sources */,
+				C5BB2EDF2C38FECA009C9041 /* CustomAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
