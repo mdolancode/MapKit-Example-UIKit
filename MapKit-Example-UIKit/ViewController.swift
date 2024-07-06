@@ -8,7 +8,7 @@
 import UIKit
 import MapKit
 
-class ViewController: UIViewController, CLLocationManagerDelegate {
+class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
     
     @IBOutlet var mapView: MKMapView!
     
@@ -25,6 +25,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         // Setup Map View
         mapView.showsUserLocation = true
         mapView.userTrackingMode = .follow
+        mapView.delegate = self
+        
+        // Add a sample annotation
+        let sampleCoordinate = CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194)
+        let annotation = CustomAnnotation(coordinate: sampleCoordinate, title: "San Fransisco", subtitle: "California")
+        mapView.addAnnotation(annotation)
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
